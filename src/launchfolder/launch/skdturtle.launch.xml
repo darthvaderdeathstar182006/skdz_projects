@@ -1,0 +1,9 @@
+<launch>
+  <node pkg="turtlesim" exec="turtlesim_node"/>
+  <node pkg="my_robo" exec="tutu_reach">
+    <param from = "$(find-pkg-share launchfolder)/config/launchingturtle.yaml"    />
+  </node>
+  <node pkg="my_robo" exec="tutu_spawn">
+    <param from = "$(find-pkg-share launchfolder)/config/launchingturtle.yaml"    />
+  </node>
+</launch>

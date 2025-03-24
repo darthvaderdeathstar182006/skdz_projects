@@ -1,0 +1,8 @@
+/bad_boy_node:
+  ros__parameters:
+    turtle_catch_first: True
+
+/robo_spawnner:
+  ros__parameters:
+    turtle_name: "tutuaali"
+    spawn_frequency: 1.5
