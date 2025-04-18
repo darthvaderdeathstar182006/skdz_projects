@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "esp32_rhapsody_project",
+			"path": "../esp32_rhapsody_project"
+		}
+	],
+	"settings": {}
+}

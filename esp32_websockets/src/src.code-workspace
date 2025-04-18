@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../ros2_ws/src"
+		},
+		{
+			"name": "esp32_websockets",
+			"path": ".."
+		},
+		{
+			"name": "esp32 motor test",
+			"path": "../../esp32 motor test"
+		}
+	],
+	"settings": {
+		"python.analysis.extraPaths": [
+			"/home/sanathkumar-desai/ros2_ws/build/my_robo",
+			"/home/sanathkumar-desai/ros2_ws/install/my_robo/lib/python3.12/site-packages",
+			"/home/sanathkumar-desai/ros2_ws/install/my_intf/lib/python3.12/site-packages",
+			"/opt/ros/jazzy/lib/python3.12/site-packages"
+		]
+	}
+}
