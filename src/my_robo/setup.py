@@ -11,7 +11,7 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
     ],
-    install_requires=['setuptools'],
+    install_requires=['setuptools','websockets', 'asyncio' ],
     zip_safe=True,
     maintainer='sanathkumar-desai',
     maintainer_email='sanathkumar-desai@todo.todo',
@@ -23,7 +23,8 @@ setup(
             "tutu_spawn = my_robo.turtle_spawner:main",
             "tutu_reach = my_robo.turtle_controller:main",
             "ard_serial = my_robo.arduino_serial:main",
-            "ard_sender = my_robo.arduino_sender_serial:main"
+            "ard_sender = my_robo.arduino_sender_serial:main",
+            "esp_sender = my_robo.espwebsocket:main"
         ],
     },
 )

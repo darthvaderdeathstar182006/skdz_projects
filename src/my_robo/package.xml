@@ -10,6 +10,10 @@
   <depend>rclpy</depend>
   <depend>turtlesim</depend>
   <depend>my_intf</depend>
+  <depend>geometry_msgs</depend>
+  <exec_depend>websockets</exec_depend>
+  <exec_depend>asyncio</exec_depend>
+
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
